@@ -1,0 +1,157 @@
+#cuerpo{
+padding-top: 20px;
+display:flex;
+flex-wrap: wrap;
+}
+.mySlides {
+  display:none;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1em;
+}
+.imagenproductos
+{
+    flex: 40%;
+    text-align: center;
+}
+.datosproductos
+{
+    margin: 20px 0px 0px 20px;
+    flex: 40%;
+    
+}
+
+@media (max-width:375px)
+{
+    .imagenproductos,  .datosproductos{
+        flex: 100%;
+    }
+}
+#button
+{
+    margin: 10px 0px 0px 0px ;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(179, 255, 0);
+}
+#button a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+#button:hover{
+    background-color:rgb(68, 0, 255);
+}
+#button a:hover{
+    color:white;
+}
+#lineaproducto
+{
+  margin-top: 30px;
+}
+.alinear{
+    padding-left: 20px;
+}
+.lineahorizontal{
+    width: 99%;
+}
+#catalogo
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#listaproductos
+{
+    background-color: rgb(183, 255, 149);
+    border-radius: 10px;
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 0px 0px 30px;
+   
+    text-align: center;
+    
+}
+@media (max-width: 800px)
+{
+  #listaproductos
+{
+    
+  margin: 10px auto;
+     
+}
+}
+
+div#imagen {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 30px auto;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 200px;
+    
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.2s;
+  }
+  
+  div#listaproductos:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#listaproductos:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#listaproductos:hover p#descripcion {
+    margin-top: 80px;
+  }
+  #descripcion
+  {
+    font-weight: bold;
+    text-align: center;
+
+  }
+  a img:hover{
+    opacity: 40%;
+  }
+  #imagenproducto{
+
+    text-align: center;
+    flex: 30%;
+  }
+  #detalleproducto{
+    flex: 70%;
+
+  }
+  @media (max-width: 800px){
+    #imagenproducto,#detalleproducto
+    {
+      flex: 100%;
+    }
+  }

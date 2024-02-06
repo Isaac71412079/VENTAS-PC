@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/home.css">
+   <link rel="stylesheet" href="css/formulario.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/w3.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <title>VENTAS</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            <div id="tituloempresa" class="alinear">
+            <div id="logo">
+                <img src="imagenes/logo.png" width="200px">
+            </div>
+            
+            </div>
+            <div id="menu">
+
+              <div id="menuizquierdo">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+
+
+                <ul id="menuresponsive">
+                    <li class="link1"><a href="index.html">Inicio</a></li>
+                    <li class="link1"><a href="producto.html">Productos</a></li>
+                    <li class="link1"><a href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+
+              <div id="menuderecho">
+                <ul id="menulink">
+                    <li class="link2"><a href="#"><img src="imagenes/redsocial/facebook.png" width="32px" /></a></li>
+                    <li class="link2"><a href="#"><img src="imagenes/redsocial/instagram.png" width="32px" /></a></li>
+                    <li class="link2"><a href="#" target="_blank"><img src="imagenes/redsocial/whatsapp.png" width="32px" /></a></li>
+                    <li class="link2"><a href="#"><img src="imagenes/redsocial/youtube.png" width="32px" /></a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div id="clear"></div>
+        </div>
+       
+        <div id="lineaproducto" class="alinear">
+            <p><h2>CONTACTENOS </h2> <hr color= "black" class="lineahorizontal"></hr></p>
+
+        </div>
+        <form name="fomulario1" id="formulario">
+            <div class="row">
+                <div class="col-25">
+                  <label >Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="nombre" placeholder="Tu nombre..">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label >Apellido</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="apellido" placeholder="Tu apellido.." disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label >Correo</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fcorreo" name="correo" placeholder="Tu correo..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label >Departamento</label>
+                </div>
+                <div class="col-75">
+                 <select id="pais" name="txtpais">
+                    <option value="Cbba">Cochabamba</option>
+                    <option value="lp">La Paz</option>
+                    <option value="sc">Santa Cruz</option>
+                 </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label >Mensaje</label>
+                </div>
+                <div class="col-75">
+                 <textarea  name="textarea" placeholder="Mensaje.." style="height:200px">
+                </textarea>
+                </div>
+            </div>
+            <div class="row">
+               <input type="submit" value="ENVIAR">
+            </div>
+          
+        </form>
+
+    </div>
+    <footer>
+        <div id="footercolumna1">
+            <ul id="menufooter">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="producto.html">PRODUCTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div id="footercolumna2">
+        <p>&copy; - 2023 :Todos los derechos reservado</p>
+        </div>
+        <div id="footercolumna3">
+            <ul id="menulink">
+                <li class="link2"><a href="#"><img src="imagenes/redsocial/facebook.png" width="32px" /></a></li>
+                <li class="link2"><a href="#"><img src="imagenes/redsocial/instagram.png" width="32px" /></a></li>
+                <li class="link2"><a href="#"><img src="imagenes/redsocial/whatsapp.png" width="32px" /></a></li>
+                <li class="link2"><a href="#"><img src="imagenes/redsocial/youtube.png" width="32px" /></a></li>
+            </ul>
+        </div>
+      
+
+    </footer>
+  
+</body>
+</html>
